@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "vscode": "https://github.com/data-forge-notebook/vscode",
+    "monaco-editor": "https://github.com/data-forge-notebook/monaco-editor"
+  }
+}
