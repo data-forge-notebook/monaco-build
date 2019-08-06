@@ -24,7 +24,7 @@ call npm install
 
 rm -rf node_modules\monaco-editor-core
 md node_modules\monaco-editor-core
-copy ..\vscode\out-monaco-editor-core node_modules\monaco-editor-core
+cp -r ..\vscode\out-monaco-editor-core node_modules\monaco-editor-core
 
 echo === Build Monaco release package === 
 call npm run release
