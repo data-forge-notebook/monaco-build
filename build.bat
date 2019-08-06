@@ -33,6 +33,6 @@ call npm run release
 
 rm -rf ..\..\data-forge-notebook-dev\lib\monaco-editor
 md ..\..\data-forge-notebook-dev\lib\monaco-editor
-copy release ..\..\data-forge-notebook-dev\lib\monaco-editor
+cp -r release ..\..\data-forge-notebook-dev\lib\monaco-editor
 
 cd ..
