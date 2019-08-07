@@ -1,0 +1,1 @@
+call build.bat 2>&1 | tee -a build.log

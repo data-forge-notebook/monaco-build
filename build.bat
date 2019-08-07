@@ -10,7 +10,6 @@ echo === Build vscode ===
 call npm run compile
 @echo on
 
-
 echo === Build editor distro === 
 call npx gulp editor-distro --max_old_space_size=2000
 @echo on
@@ -23,16 +22,13 @@ call npm install
 @echo on
 
 rm -rf node_modules\monaco-editor-core
-md node_modules\monaco-editor-core
-cp -r ..\vscode\out-monaco-editor-core node_modules\monaco-editor-core
+mv ..\vscode\out-monaco-editor-core node_modules\monaco-editor-core
 
 echo === Build Monaco release package === 
 call npm run release
 @echo on
 
-
 rm -rf ..\..\data-forge-notebook-dev\lib\monaco-editor
-md ..\..\data-forge-notebook-dev\lib\monaco-editor
-cp -r release ..\..\data-forge-notebook-dev\lib\monaco-editor
+mv release ..\..\data-forge-notebook-dev\lib\monaco-editor
 
 cd ..
