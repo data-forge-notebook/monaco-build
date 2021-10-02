@@ -6,6 +6,8 @@ Used by the [Data-Forge Notebook](http://www.data-forge-notebook.com/) build pro
 
 Check out the file build.bat to see the commands required to extract and package Monaco Editor.
 
+[Click here to support my work](https://www.codecapers.com.au/about#support-my-work)
+
 ## Building it
 
 Run
