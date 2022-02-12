@@ -8,6 +8,16 @@ Check out the file build.bat to see the commands required to extract and package
 
 [Click here to support my work](https://www.codecapers.com.au/about#support-my-work)
 
+Use Node.js 12 to run this:
+
+```bash
+nvm install 12.22.10
+nvm use 12.22.10
+```
+
+How to install classic Yarn:
+https://classic.yarnpkg.com/en/docs/install#windows-stable
+
 ## Getting it
 
 This is a meta repo.

@@ -28,7 +28,7 @@ echo === Build Monaco release package ===
 call npm run release
 @echo on
 
-rm -rf ..\..\..\data-forge-notebook-git\lib\monaco-editor
-mv release ..\..\..\data-forge-notebook-git\lib\monaco-editor
+@REM rm -rf ..\..\..\data-forge-notebook-git\lib\monaco-editor
+@REM mv release ..\..\..\data-forge-notebook-git\lib\monaco-editor
 
 cd ..
