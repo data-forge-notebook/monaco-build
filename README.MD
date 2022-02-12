@@ -8,6 +8,22 @@ Check out the file build.bat to see the commands required to extract and package
 
 [Click here to support my work](https://www.codecapers.com.au/about#support-my-work)
 
+## Getting it
+
+This is a meta repo.
+
+You need meta installed:
+
+```bash
+npm install meta -g
+```
+
+The clone the repo:
+
+```bash
+meta git clone git@github.com:data-forge-notebook/monaco-build.git
+```
+
 ## Building it
 
 Run
